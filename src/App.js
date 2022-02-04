@@ -38,6 +38,7 @@ function App() {
       .getAllPlayers()
       .call().then(console.log());
     console.log(addresses);
+    console.log(manager);
     //  .then((res) => console.log("RES", res));
     console.log("Your Address", address);
     setManager("0x3E46688fA598d7bEE517DC3A5155B8C0CABDafC5");
